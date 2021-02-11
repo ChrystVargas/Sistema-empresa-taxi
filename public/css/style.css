@@ -1,0 +1,40 @@
+#page-top{
+    overflow: hidden !important;
+}
+
+.sidebar-position .nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.144) !important;
+}
+
+.container-main{
+    height: calc(100vh - 4.375rem);
+    overflow-y: scroll !important;
+    padding-bottom: 4.375rem;
+}
+
+.sidebar-position{
+    position: relative;
+}
+
+.toggle-btn-sidebar{
+    position: absolute;
+    right: calc(-2.5rem - 10px);
+    top: calc(10px);
+    z-index: 1;
+}
+
+.toggle-btn-sidebar button{
+    background-color: rgba(0, 72, 155, 0.658) !important;
+}
+
+#tabla{
+    width: 100% !important;
+}
+
+#tabla tbody tr td:last-child{
+    width: 8.5rem !important;
+}
